@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class NumeroDeLasuerte {
 
     public static void main(String[] args) {
+       System.out.println("aqui vas saber tu numero de la suerte");
        Scanner leer = new Scanner (System.in);
        System.out.print ("indique el dia de su nacimiento: ");
        int dia;
