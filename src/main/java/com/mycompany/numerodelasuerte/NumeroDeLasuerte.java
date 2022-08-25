@@ -6,13 +6,13 @@ public class NumeroDeLasuerte {
     public static void main(String[] args) {
        System.out.println("aqui vas tu saber tu numero de la suerte");
        Scanner leer = new Scanner (System.in);
-       System.out.print ("indique el dia de su nacimiento: ");
+       System.out.println ("indique el dia de su nacimiento: ");
        int dia;
        dia = leer.nextInt ();
-       System.out.print ("indique el mes de su nacimiento: ");
+       System.out.println ("indique el mes de su nacimiento: ");
        int mes;
        mes = leer.nextInt ();
-       System.out.print ("indique el año de su nacimiento: ");
+       System.out.println ("indique el año de su nacimiento: ");
        int año;
        año = leer.nextInt ();
        int totalsuma;
